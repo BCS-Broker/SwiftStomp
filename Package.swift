@@ -17,7 +17,7 @@ let package = Package(
         .target(
             name: "SwiftStomp",
             dependencies: ["Starscream",
-                           "ReachabilitySwift"],
+                           "Reachability"],
             path: "SwiftStomp"
         )
     ]
